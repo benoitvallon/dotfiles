@@ -47,13 +47,13 @@ CASE_SENSITIVE="true"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git docker npm knife)
 
-source $ZSH/oh-my-zsh.sh
-
 # User configuration
 
 export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:$HOME/.dotfiles/bin:$PATH"
 
 # export MANPATH="/usr/local/man:$MANPATH"
+
+source $ZSH/oh-my-zsh.sh
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -79,15 +79,9 @@ export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:$HO
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# Load all the dotfiles configuration
+source $HOME/.dotfiles/zsh/load-config.sh
+
+# Add private aliases
 source $HOME/.aliases
-
-# load all of our zsh files
-typeset -U config_files
-config_files=($HOME/.dotfiles/**/*.zsh)
-for file in ${(M)config_files:#*/*.zsh}
-do
-  source $file
-done
-unset config_files
-
-export PATH="$HOME/.chefdk/gem/ruby/2.1.0/bin:/opt/chefdk/bin:$PATH"
