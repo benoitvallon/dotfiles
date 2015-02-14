@@ -1,0 +1,17 @@
+" Make Vim more useful
+set nocompatible
+" Use the OS clipboard by default (on versions compiled with `+clipboard`)
+" Set color scheme!
+colorscheme candy
+" Enable syntax highlighting
+syntax on
+" Show the current mode
+set showmode
+" Show the filename in the window titlebar
+set title
+" Highlight searches
+set hlsearch
+" Make tabs as wide as two spaces
+set tabstop=4
+" Enable line numbers
+"set number

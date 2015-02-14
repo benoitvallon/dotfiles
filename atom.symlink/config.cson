@@ -1,0 +1,52 @@
+"*":
+  editor:
+    fontSize: 12
+    showInvisibles: true
+    showIndentGuide: true
+    preferredLineLength: 100
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+    invisibles: {}
+  core:
+    ignoredNames: [
+      ".git"
+      ".svn"
+      ".DS_Store"
+    ]
+    themes: [
+      "seti-ui"
+      "monokai"
+    ]
+  "exception-reporting":
+    userId: "927ad9ee-b6a5-4937-bc3c-31ee92e96c24"
+  "release-notes":
+    viewedVersion: "0.90.0"
+  welcome:
+    showOnStartup: false
+  metrics:
+    userId: "c5a6a7c8def523ce52153546d495c81bb7082706"
+  "markdown-preview":
+    grammars: [
+      "source.gfm"
+      "source.litcoffee"
+      "text.plain"
+      "text.plain.null-grammar"
+    ]
+  autocomplete:
+    includeCompletionsFromAllBuffers: false
+  whitespace:
+    ignoreWhitespaceOnCurrentLine: false
+  esformatter:
+    formatOnSave: true
+  "atom-beautify":
+    beautifyOnSave: true
+    _analyticsUserId: "dd5ae96b-29e0-40aa-be70-a2344a5c6ad2"
+    js_preserve_newlines: false
+    js_space_before_conditional: false
+  linter: {}
+  "autocomplete-plus": {}
+  "linter-jshint": {}
+  "git-plus": {}
+".diff.source":
+  editor:
+    preferredLineLength: 100
