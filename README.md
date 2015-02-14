@@ -1,6 +1,6 @@
 # My dotfiles
 
-This repo and these dotfiles are heavily based on a fork of [holman/dotfiles](https://github.com/holman/dotfiles/fork).
+This repo and these dotfiles are based on a fork of [holman/dotfiles](https://github.com/holman/dotfiles/fork).
 
 ## Why this repo
 
