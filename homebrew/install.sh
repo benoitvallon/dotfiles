@@ -13,6 +13,6 @@ then
 fi
 
 # Install homebrew packages
-brew install grc coreutils spark
+brew install grc coreutils spark openssl nginx mongodb
 
 exit 0
