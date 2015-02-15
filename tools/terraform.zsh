@@ -1,1 +1,1 @@
-export PATH=$PATH:~/bin/terraform
+export PATH="$PATH:$HOME/bin/terraform"
