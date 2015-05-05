@@ -17,6 +17,9 @@
       "seti-ui"
       "monokai"
     ]
+    disabledPackages: [
+      "jshint"
+    ]
   "exception-reporting":
     userId: "927ad9ee-b6a5-4937-bc3c-31ee92e96c24"
   "release-notes":
@@ -39,14 +42,22 @@
   esformatter:
     formatOnSave: true
   "atom-beautify":
-    beautifyOnSave: true
     _analyticsUserId: "dd5ae96b-29e0-40aa-be70-a2344a5c6ad2"
     js_preserve_newlines: false
     js_space_before_conditional: false
+    beautifyEntireFileOnSave: false
   linter: {}
-  "autocomplete-plus": {}
+  "autocomplete-plus":
+    confirmCompletion: "enter"
   "linter-jshint": {}
   "git-plus": {}
+  react: {}
+".coffee.jsx.source":
+  editor:
+    preferredLineLength: 100
+".js.jsx.source":
+  editor:
+    preferredLineLength: 100
 ".diff.source":
   editor:
     preferredLineLength: 100
