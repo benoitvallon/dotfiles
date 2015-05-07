@@ -13,6 +13,6 @@ then
 fi
 
 # Install homebrew packages
-brew install grc coreutils spark openssl nginx mongodb node awsebcli
+brew install grc coreutils spark openssl nginx mongodb node awscli awsebcli
 
 exit 0
