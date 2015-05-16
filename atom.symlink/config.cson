@@ -6,7 +6,8 @@
     preferredLineLength: 100
     softWrap: true
     softWrapAtPreferredLineLength: true
-    invisibles: {}
+    invisibles:
+      {}
   core:
     ignoredNames: [
       ".git"
@@ -46,12 +47,18 @@
     js_preserve_newlines: false
     js_space_before_conditional: false
     beautifyEntireFileOnSave: false
-  linter: {}
+  linter:
+    ignoredLinterErrors: [
+      "jshint"
+    ]
   "autocomplete-plus":
-    confirmCompletion: "enter"
-  "linter-jshint": {}
-  "git-plus": {}
-  react: {}
+    {}
+  "linter-jshint":
+    {}
+  "git-plus":
+    {}
+  react:
+    {}
 ".js.jsx.source":
   editor:
     preferredLineLength: 100
