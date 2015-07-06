@@ -1,13 +1,12 @@
 "*":
   editor:
-    fontSize: 12
+    fontSize: 11
     showInvisibles: true
     showIndentGuide: true
     preferredLineLength: 100
     softWrap: true
     softWrapAtPreferredLineLength: true
-    invisibles:
-      {}
+    invisibles: {}
   core:
     ignoredNames: [
       ".git"
@@ -51,18 +50,18 @@
     ignoredLinterErrors: [
       "jshint"
     ]
-  "autocomplete-plus":
-    {}
-  "linter-jshint":
-    {}
-  "git-plus":
-    {}
-  react:
-    {}
-".js.jsx.source":
+    showErrorPanel: false
+  "autocomplete-plus": {}
+  "linter-jshint": {}
+  "git-plus": {}
+  react: {}
+  "tool-bar":
+    iconSize: "16px"
+    position: "Left"
+".coffee.jsx.source":
   editor:
     preferredLineLength: 100
-".coffee.jsx.source":
+".js.jsx.source":
   editor:
     preferredLineLength: 100
 ".diff.source":
