@@ -58,10 +58,13 @@
   "tool-bar":
     iconSize: "16px"
     position: "Left"
-".js.jsx.source":
+  emmet: {}
+  "linter-scss-lint":
+    executablePath: "/usr/bin/scss-lint"
+".coffee.jsx.source":
   editor:
     preferredLineLength: 100
-".coffee.jsx.source":
+".js.jsx.source":
   editor:
     preferredLineLength: 100
 ".diff.source":
