@@ -61,10 +61,10 @@
   emmet: {}
   "linter-scss-lint":
     executablePath: "/usr/bin/scss-lint"
-".coffee.jsx.source":
+".js.jsx.source":
   editor:
     preferredLineLength: 100
-".js.jsx.source":
+".coffee.jsx.source":
   editor:
     preferredLineLength: 100
 ".diff.source":
