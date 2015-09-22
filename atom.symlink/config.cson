@@ -19,6 +19,8 @@
     ]
     disabledPackages: [
       "jshint"
+      "atom-jshint"
+      "linter-jshint"
     ]
   "exception-reporting":
     userId: "927ad9ee-b6a5-4937-bc3c-31ee92e96c24"
@@ -61,6 +63,11 @@
   emmet: {}
   "linter-scss-lint":
     executablePath: "/usr/bin/scss-lint"
+  "tree-view": {}
+  tabs:
+    usePreviewTabs: true
+  "linter-eslint":
+    disableWhenNoEslintrcFileInPath: true
 ".js.jsx.source":
   editor:
     preferredLineLength: 100
