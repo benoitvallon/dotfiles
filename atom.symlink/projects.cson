@@ -1,0 +1,11 @@
+workspace:
+  title: "workspace"
+  paths: [
+    "/D1/web/users/benoit/basic-react-redux"
+    "/D1/web/users/benoit/samples/react-redux-universal-hot-example"
+    "/D1/web/users/benoit/calculator-app-react"
+    "/D1/web/users/benoit/heappi-bdfugue-scripts"
+    "/D1/web/users/benoit/heappi-upload"
+    "/D1/web/users/benoit/press-book"
+    "/D1/web/users/benoit/heappi-dbcat"
+  ]

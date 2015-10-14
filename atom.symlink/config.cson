@@ -62,16 +62,16 @@
     position: "Left"
   emmet: {}
   "linter-scss-lint":
-    executablePath: "/usr/bin/scss-lint"
+    executablePath: "/usr/local/bin/scss-lint"
   "tree-view": {}
   tabs:
     usePreviewTabs: true
   "linter-eslint":
     disableWhenNoEslintrcFileInPath: true
-".js.jsx.source":
+".coffee.jsx.source":
   editor:
     preferredLineLength: 100
-".coffee.jsx.source":
+".js.jsx.source":
   editor:
     preferredLineLength: 100
 ".diff.source":
