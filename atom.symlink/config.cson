@@ -67,7 +67,7 @@
   tabs:
     usePreviewTabs: true
   "linter-eslint":
-    disableWhenNoEslintrcFileInPath: true
+    globalNodePath: "/Users/benoit/.node"
 ".coffee.jsx.source":
   editor:
     preferredLineLength: 100
