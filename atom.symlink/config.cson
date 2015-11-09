@@ -37,6 +37,7 @@
       "text.plain"
       "text.plain.null-grammar"
     ]
+    useGitHubStyle: true
   autocomplete:
     includeCompletionsFromAllBuffers: false
   whitespace:
@@ -68,10 +69,11 @@
     usePreviewTabs: true
   "linter-eslint":
     globalNodePath: "/Users/benoit/.node"
-".coffee.jsx.source":
+    disableWhenNoEslintrcFileInPath: true
+".js.jsx.source":
   editor:
     preferredLineLength: 100
-".js.jsx.source":
+".coffee.jsx.source":
   editor:
     preferredLineLength: 100
 ".diff.source":
