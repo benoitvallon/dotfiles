@@ -53,7 +53,6 @@
     ignoredLinterErrors: [
       "jshint"
     ]
-    showErrorPanel: false
   "autocomplete-plus": {}
   "linter-jshint": {}
   "git-plus": {}
@@ -70,10 +69,10 @@
   "linter-eslint":
     globalNodePath: "/Users/benoit/.node"
     disableWhenNoEslintrcFileInPath: true
-".js.jsx.source":
+".coffee.jsx.source":
   editor:
     preferredLineLength: 100
-".coffee.jsx.source":
+".js.jsx.source":
   editor:
     preferredLineLength: 100
 ".diff.source":
