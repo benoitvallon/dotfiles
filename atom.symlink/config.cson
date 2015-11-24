@@ -53,6 +53,7 @@
     ignoredLinterErrors: [
       "jshint"
     ]
+    showErrorPanel: false
   "autocomplete-plus": {}
   "linter-jshint": {}
   "git-plus": {}
