@@ -16,5 +16,5 @@
 #   'ctrl-P': 'core:move-up'
 #   'ctrl-p': 'core:move-down'
 #
-'atom-text-editor[data-grammar="text html erb"]:not([mini])':
+'atom-text-editor[data-grammar="text html erb"]:not([mini]), atom-text-editor[data-grammar="source js jsx"]:not([mini])':
     'tab': 'emmet:expand-abbreviation-with-tab'

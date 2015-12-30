@@ -5,6 +5,7 @@ atom.symlink/packages
 atom.symlink/storage
 atom.symlink/themes
 atom.symlink/projects.cson
+atom.symlink/blob-store/*
 
 git/gitconfig.symlink
 
