@@ -3,21 +3,21 @@ atom-jshint@2.0.0
 auto-update-packages@1.0.0
 editorconfig@1.2.2
 emmet@2.3.17
-git-plus@5.8.3
+git-plus@5.9.0
 language-matlab@0.1.1
 language-scala@1.1.4
 linter@1.11.3
-linter-csslint@1.1.0
+linter-csslint@1.2.0
 linter-eslint@5.2.7
-linter-jshint@1.2.1
+linter-jshint@1.2.2
 linter-scss-lint@2.5.0
 minimap@4.19.0
 monokai@0.18.0
 pigments@0.19.5
-project-manager@2.6.5
+project-manager@2.7.1
 react@0.12.10
 seti-syntax@0.4.1
 seti-ui@0.8.1
-tool-bar@0.1.9
+tool-bar@0.1.10
 tool-bar-main@0.0.8
 
