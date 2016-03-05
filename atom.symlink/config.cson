@@ -1,13 +1,18 @@
 "*":
-  editor:
-    showInvisibles: true
-    showIndentGuide: true
-    preferredLineLength: 100
-    softWrap: true
-    softWrapAtPreferredLineLength: true
-    invisibles: {}
-    fontSize: 11
+  "atom-beautify":
+    _analyticsUserId: "dd5ae96b-29e0-40aa-be70-a2344a5c6ad2"
+    beautifyEntireFileOnSave: false
+    js_preserve_newlines: false
+    js_space_before_conditional: false
+  autocomplete:
+    includeCompletionsFromAllBuffers: false
+  "autocomplete-plus": {}
   core:
+    disabledPackages: [
+      "jshint"
+      "atom-jshint"
+      "linter-jshint"
+    ]
     ignoredNames: [
       ".git"
       ".svn"
@@ -17,19 +22,31 @@
       "seti-ui"
       "monokai"
     ]
-    disabledPackages: [
-      "jshint"
-      "atom-jshint"
-      "linter-jshint"
-    ]
+  editor:
+    fontSize: 11
+    invisibles: {}
+    preferredLineLength: 100
+    showIndentGuide: true
+    showInvisibles: true
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+  emmet: {}
+  esformatter:
+    formatOnSave: true
   "exception-reporting":
     userId: "927ad9ee-b6a5-4937-bc3c-31ee92e96c24"
-  "release-notes":
-    viewedVersion: "0.90.0"
-  welcome:
-    showOnStartup: false
-  metrics:
-    userId: "c5a6a7c8def523ce52153546d495c81bb7082706"
+  "git-plus": {}
+  linter:
+    ignoredLinterErrors: [
+      "jshint"
+    ]
+    showErrorPanel: false
+  "linter-eslint":
+    disableWhenNoEslintrcFileInPath: true
+    globalNodePath: "/Users/benoit/.node"
+  "linter-jshint": {}
+  "linter-scss-lint":
+    executablePath: "/usr/local/bin/scss-lint"
   "markdown-preview":
     grammars: [
       "source.gfm"
@@ -38,44 +55,28 @@
       "text.plain.null-grammar"
     ]
     useGitHubStyle: true
-  autocomplete:
-    includeCompletionsFromAllBuffers: false
-  whitespace:
-    ignoreWhitespaceOnCurrentLine: false
-  esformatter:
-    formatOnSave: true
-  "atom-beautify":
-    _analyticsUserId: "dd5ae96b-29e0-40aa-be70-a2344a5c6ad2"
-    js_preserve_newlines: false
-    js_space_before_conditional: false
-    beautifyEntireFileOnSave: false
-  linter:
-    ignoredLinterErrors: [
-      "jshint"
-    ]
-    showErrorPanel: false
-  "autocomplete-plus": {}
-  "linter-jshint": {}
-  "git-plus": {}
+  metrics:
+    userId: "c5a6a7c8def523ce52153546d495c81bb7082706"
   react: {}
+  "release-notes":
+    viewedVersion: "0.90.0"
+  tabs:
+    usePreviewTabs: true
   "tool-bar":
     iconSize: "16px"
     position: "Left"
-  emmet: {}
-  "linter-scss-lint":
-    executablePath: "/usr/local/bin/scss-lint"
   "tree-view": {}
-  tabs:
-    usePreviewTabs: true
-  "linter-eslint":
-    globalNodePath: "/Users/benoit/.node"
-    disableWhenNoEslintrcFileInPath: true
-".js.jsx.source":
-  editor:
-    preferredLineLength: 100
+  welcome:
+    showOnStartup: false
+  whitespace:
+    ignoreWhitespaceOnCurrentLine: false
+    keepMarkdownLineBreakWhitespace: false
 ".coffee.jsx.source":
   editor:
     preferredLineLength: 100
 ".diff.source":
+  editor:
+    preferredLineLength: 100
+".js.jsx.source":
   editor:
     preferredLineLength: 100
