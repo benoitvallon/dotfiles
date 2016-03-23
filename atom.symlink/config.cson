@@ -46,7 +46,7 @@
     globalNodePath: "/Users/benoit/.node"
   "linter-jshint": {}
   "linter-scss-lint":
-    executablePath: "/usr/local/bin/scss-lint"
+    executablePath: "/Users/benoit/.rbenv/shims/scss-lint"
   "markdown-preview":
     grammars: [
       "source.gfm"
@@ -65,7 +65,8 @@
   "tool-bar":
     iconSize: "16px"
     position: "Left"
-  "tree-view": {}
+  "tree-view":
+    hideIgnoredNames: true
   welcome:
     showOnStartup: false
   whitespace:
@@ -78,5 +79,11 @@
   editor:
     preferredLineLength: 100
 ".js.jsx.source":
+  editor:
+    preferredLineLength: 100
+".matlab.source":
+  editor:
+    preferredLineLength: 100
+".octave.source":
   editor:
     preferredLineLength: 100
