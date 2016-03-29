@@ -13,6 +13,7 @@ then
 fi
 
 # Install homebrew packages
-brew install grc coreutils spark openssl nginx mongodb node awscli awsebcli
+brew install grc coreutils spark openssl nginx mongodb node awscli awsebcli aws-elasticbeanstalk postgresql rbenv
+brew cask install java
 
 exit 0
