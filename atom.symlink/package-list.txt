@@ -14,11 +14,11 @@ linter-jshint@2.0.3
 linter-scss-lint@2.5.1
 minimap@4.21.0
 monokai@0.18.0
-pigments@0.25.0
-project-manager@2.7.6
+pigments@0.26.0
+project-manager@2.8.0
 react@0.14.2
-seti-syntax@0.4.1
-seti-ui@0.9.1
+seti-syntax@0.4.2
+seti-ui@0.9.2
 tool-bar@0.4.0
 tool-bar-main@0.0.9
 
