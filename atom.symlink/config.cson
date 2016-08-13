@@ -2,8 +2,10 @@
   "atom-beautify":
     _analyticsUserId: "dd5ae96b-29e0-40aa-be70-a2344a5c6ad2"
     beautifyEntireFileOnSave: false
-    js_preserve_newlines: false
-    js_space_before_conditional: false
+    general:
+      _analyticsUserId: "1c7c7cff-cf81-41cf-a4b1-a08a6b6b7cae"
+    js_preserve_newlines: true
+    js_space_before_conditional: true
   autocomplete:
     includeCompletionsFromAllBuffers: false
   "autocomplete-plus": {}
@@ -46,7 +48,7 @@
     globalNodePath: "/Users/benoit/.node"
   "linter-jshint": {}
   "linter-scss-lint":
-    executablePath: "/Users/benoit/.rbenv/shims/scss-lint"
+    executablePath: "/usr/local/opt/rbenv/shims/scss-lint"
   "markdown-preview":
     grammars: [
       "source.gfm"
@@ -60,6 +62,8 @@
   react: {}
   "release-notes":
     viewedVersion: "0.90.0"
+  "seti-ui":
+    compactView: true
   tabs:
     usePreviewTabs: true
   "tool-bar":
