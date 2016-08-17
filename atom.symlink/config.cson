@@ -1,4 +1,27 @@
 "*":
+  "":
+    coffee:
+      jsx:
+        source:
+          editor:
+            preferredLineLength: 100
+    diff:
+      source:
+        editor:
+          preferredLineLength: 100
+    js:
+      jsx:
+        source:
+          editor:
+            preferredLineLength: 100
+    matlab:
+      source:
+        editor:
+          preferredLineLength: 100
+    octave:
+      source:
+        editor:
+          preferredLineLength: 100
   "atom-beautify":
     _analyticsUserId: "dd5ae96b-29e0-40aa-be70-a2344a5c6ad2"
     beautifyEntireFileOnSave: false
@@ -37,6 +60,8 @@
     formatOnSave: true
   "exception-reporting":
     userId: "927ad9ee-b6a5-4937-bc3c-31ee92e96c24"
+  "file-types":
+    "\\.config$": "source.yaml"
   "git-plus": {}
   linter:
     ignoredLinterErrors: [
@@ -76,18 +101,3 @@
   whitespace:
     ignoreWhitespaceOnCurrentLine: false
     keepMarkdownLineBreakWhitespace: false
-".coffee.jsx.source":
-  editor:
-    preferredLineLength: 100
-".diff.source":
-  editor:
-    preferredLineLength: 100
-".js.jsx.source":
-  editor:
-    preferredLineLength: 100
-".matlab.source":
-  editor:
-    preferredLineLength: 100
-".octave.source":
-  editor:
-    preferredLineLength: 100
