@@ -37,12 +37,14 @@
       "jshint"
       "atom-jshint"
       "linter-jshint"
+      "linter-scss-lint"
     ]
     ignoredNames: [
       ".git"
       ".svn"
       ".DS_Store"
     ]
+    telemetryConsent: "limited"
     themes: [
       "seti-ui"
       "monokai"
