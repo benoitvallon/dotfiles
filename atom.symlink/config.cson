@@ -47,7 +47,7 @@
     telemetryConsent: "limited"
     themes: [
       "seti-ui"
-      "monokai"
+      "monokai-seti"
     ]
   editor:
     fontSize: 11
@@ -55,7 +55,6 @@
     preferredLineLength: 100
     showIndentGuide: true
     showInvisibles: true
-    softWrap: true
     softWrapAtPreferredLineLength: true
   emmet: {}
   esformatter:
@@ -64,12 +63,13 @@
     userId: "927ad9ee-b6a5-4937-bc3c-31ee92e96c24"
   "file-types":
     "\\.config$": "source.yaml"
-  "git-plus": {}
+  "git-plus":
+    general:
+      _analyticsUserId: "9944bdae-5be8-424e-948c-89988bad8a06"
   linter:
     ignoredLinterErrors: [
       "jshint"
     ]
-    showErrorPanel: false
   "linter-eslint":
     disableWhenNoEslintrcFileInPath: true
     globalNodePath: "/Users/benoit/.node"
@@ -89,9 +89,11 @@
   react: {}
   "release-notes":
     viewedVersion: "0.90.0"
+  "seti-syntax": {}
   "seti-ui":
     compactView: true
   tabs:
+    enableVcsColoring: true
     usePreviewTabs: true
   "tool-bar":
     iconSize: "16px"
