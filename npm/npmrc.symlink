@@ -1,2 +1,2 @@
 # Store all npm packages installed as global
-prefix=~/.node
+prefix=~/.npm-packages
