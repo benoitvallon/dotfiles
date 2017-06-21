@@ -13,7 +13,29 @@ then
 fi
 
 # Install homebrew packages
-brew install grc coreutils scala sbt apache-spark openssl nginx mongodb node awscli awsebcli postgresql rbenv
+# General tools
+brew install grc coreutils openssl
+# Servers
+brew install nginx
+# AWS
+brew install awscli awsebcli
+# Databases
+brew install mongodb postgresql
+# Big data
+brew install apache-spark
+
+# Scala
+brew install scala sbt
+# JavaScript
+brew install node --without-npm
+brew install yarn
+# Ruby
+brew install rbenv
+# Go
+brew install go
+# Python
+brew install python python3
+# Java
 brew cask install java
 
 exit 0
