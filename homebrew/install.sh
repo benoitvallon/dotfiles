@@ -23,6 +23,8 @@ brew install awscli awsebcli
 brew install mongodb postgresql
 # Big data
 brew install apache-spark
+# React native tools
+brew install watchman
 
 # Scala
 brew install scala sbt
