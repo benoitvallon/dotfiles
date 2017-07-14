@@ -1,4 +1,4 @@
-atom-beautify@0.30.3
+atom-beautify@0.30.4
 atom-jshint@2.0.0
 atom-ternjs@0.18.3
 auto-update-packages@1.0.1
@@ -17,7 +17,7 @@ linter-eslint@8.2.1
 linter-jshint@3.1.5
 linter-scss-lint@3.1.0
 linter-ui-default@1.6.2
-minimap@4.28.2
+minimap@4.28.3
 monokai@0.24.0
 monokai-seti@0.9.0
 pigments@0.39.1
@@ -28,4 +28,3 @@ tool-bar@1.1.0
 tool-bar-atom@1.7.0
 
 seti-syntax@1.0.1
-
