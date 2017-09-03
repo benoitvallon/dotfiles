@@ -24,6 +24,7 @@ brew install mongodb postgresql
 # Big data
 brew install apache-spark
 # React native tools
+brew cask install fastlane
 brew install watchman
 
 # Scala
