@@ -77,6 +77,8 @@
   "linter-jshint": {}
   "linter-scss-lint":
     executablePath: "/usr/local/opt/rbenv/shims/scss-lint"
+  "linter-ui-default":
+    panelHeight: 56
   "markdown-preview":
     grammars: [
       "source.gfm"
