@@ -39,6 +39,7 @@
       "atom-beautify"
       "file-types"
       "project-manager"
+      "linter"
     ]
     ignoredNames: [
       ".git"
@@ -53,7 +54,7 @@
   editor:
     fontSize: 11
     invisibles: {}
-    preferredLineLength: 100
+    preferredLineLength: 120
     showIndentGuide: true
     showInvisibles: true
     softWrapAtPreferredLineLength: true
@@ -89,6 +90,15 @@
     useGitHubStyle: true
   metrics:
     userId: "c5a6a7c8def523ce52153546d495c81bb7082706"
+  "prettier-atom":
+    formatOnSaveOptions:
+      isDisabledIfNoConfigFile: true
+      isDisabledIfNotInPackageJson: true
+      showInStatusBar: true
+    prettierEslintOptions: {}
+    prettierOptions:
+      printWidth: 100
+      singleQuote: true
   react: {}
   "release-notes":
     viewedVersion: "0.90.0"
