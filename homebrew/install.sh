@@ -37,7 +37,7 @@ brew install rbenv
 # Go
 brew install go
 # Python
-brew install python python3
+brew install python python2 python3
 # Java
 brew cask install java
 
