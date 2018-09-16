@@ -85,3 +85,10 @@ source $HOME/.dotfiles/zsh/load-config.sh
 
 # Add private aliases
 source $HOME/.aliases
+
+# tabtab source for serverless package
+# uninstall by removing these lines or running `tabtab uninstall serverless`
+[[ -f /Users/benoit/.npm-packages/lib/node_modules/serverless/node_modules/tabtab/.completions/serverless.zsh ]] && . /Users/benoit/.npm-packages/lib/node_modules/serverless/node_modules/tabtab/.completions/serverless.zsh
+# tabtab source for sls package
+# uninstall by removing these lines or running `tabtab uninstall sls`
+[[ -f /Users/benoit/.npm-packages/lib/node_modules/serverless/node_modules/tabtab/.completions/sls.zsh ]] && . /Users/benoit/.npm-packages/lib/node_modules/serverless/node_modules/tabtab/.completions/sls.zsh
