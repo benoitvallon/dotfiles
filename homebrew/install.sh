@@ -40,5 +40,7 @@ brew install go
 brew install python python2 python3
 # Java
 brew cask install java
+# Cocoapods
+brew install cocoapods
 
 exit 0
