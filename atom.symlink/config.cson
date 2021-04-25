@@ -33,13 +33,11 @@
     disabledPackages: [
       "jshint"
       "atom-jshint"
-      "linter-jshint"
       "linter-scss-lint"
       "atom-ternjs"
       "atom-beautify"
       "file-types"
       "project-manager"
-      "linter"
     ]
     ignoredNames: [
       ".git"
@@ -49,7 +47,7 @@
     telemetryConsent: "limited"
     themes: [
       "seti-ui"
-      "monokai-seti"
+      "monokai"
     ]
   editor:
     fontSize: 11
@@ -74,7 +72,8 @@
     ]
   "linter-eslint":
     disableWhenNoEslintrcFileInPath: true
-    globalNodePath: "/Users/benoit/.node"
+    global:
+      globalNodePath: "/Users/benoit/.node"
   "linter-jshint": {}
   "linter-scss-lint":
     executablePath: "/usr/local/opt/rbenv/shims/scss-lint"
