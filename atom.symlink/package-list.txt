@@ -6,7 +6,7 @@ busy-signal@2.0.1
 editorconfig@2.6.1
 emmet@2.4.3
 file-types@1.0.1
-intentions@1.1.5
+intentions@2.1.1
 language-gradle@0.1.0
 language-groovy@0.7.0
 language-ini@1.25.0
@@ -19,15 +19,15 @@ linter-eslint@8.6.6
 linter-mjml@1.2.0
 linter-scss-lint@3.2.1
 linter-ui-default@3.3.1
-minimap@4.39.13
+minimap@4.39.14
 mjml-preview@2.0.3
-monokai@0.27.0
+monokai@0.28.0
 monokai-seti@0.9.0
 pigments@0.40.6
 prettier-atom@0.60.1
 project-manager@3.3.8
 react@0.18.0
 seti-ui@1.11.0
-tool-bar@1.4.2
+tool-bar@1.4.4
 tool-bar-atom@1.7.1
 seti-syntax@1.0.1
