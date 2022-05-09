@@ -9,7 +9,7 @@
 if test ! $(which brew)
 then
   echo "  Installing Homebrew for you."
-  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
 
 # Install homebrew packages
@@ -20,17 +20,18 @@ brew install nginx
 # AWS
 brew install awscli awsebcli
 # Databases
-brew install mongodb postgresql
+brew install postgresql
 # Big data
 brew install apache-spark
 # React native tools
-brew cask install fastlane
+brew install fastlane
 brew install watchman
 
 # Scala
 brew install scala sbt
 # JavaScript
-brew install node --without-npm
+brew install node
+brew install node@14
 brew install yarn
 # Ruby
 brew install rbenv
@@ -39,7 +40,7 @@ brew install go
 # Python
 brew install python python2 python3
 # Java
-brew cask install java
+brew install java
 # Cocoapods
 brew install cocoapods
 
