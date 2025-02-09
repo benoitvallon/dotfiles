@@ -31,7 +31,7 @@ brew install watchman
 brew install scala sbt
 # JavaScript
 brew install node
-brew install node@14
+brew install node@22
 brew install yarn
 # Ruby
 brew install rbenv
